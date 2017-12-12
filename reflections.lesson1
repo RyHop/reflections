@@ -1,0 +1,21 @@
+Hello World
+I am starting the reflections adventure with this one. I am talking about using the command "FC" in Windows which compares two files. It is intriguing to find that out and useful. I did not know about it until now. I need to tell more people!
+
+ Having access to different histories of a file could make it easier to find bugs, and fix mistakes that you wish you never made. 
+
+ The Pros and Cons of manually choosing when to create a commit is better in my opinion. It is more flessible. You can choose when to commit one feature rather than autosaving multiple changes that may or may not be relevant. Though, automatically saving runs less risk of losing checkpoints and files, hopefully the developer is competent enought to handle where to save at checkpoints and saving files approriately.
+
+  Git Allows multiple files to be save in one committ because, when coding, one file can affect other files if a function or class is changed.
+
+  So, I learned git log, and I am really familared with its functions; however, git diff is different. I haven't directly tried it, but I have a feeling I got the idea
+  .
+  So, I tried the git diff command..doesn't recognize it. I can use FC in the Windows Command Prompt though. 
+
+  I also learned that git checkout (commit Number) can revert back to a previous version.
+
+  So, the video asked me to set up my workspace--the one in Udacity. Since I was weary about downloading stuff, I did not want to customize anything. I will just have to make due...if I need to change it, I will later as need fit.
+
+  I just learned how to create a new repository.
+  It is git init.
+  git status sees the current conditions of the repository.
+
