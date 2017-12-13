@@ -11,3 +11,8 @@ Why might you want to always pull changes manually rather than having Git automa
  
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
  Clones take the copy of a project with the same ownership. Forks take a copy of a project from someone else, they keep the ownership, but you can modify it as your own. Branches are more of a local thing where you branch only to try a new feature or just try something new within your files or code.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+ It is great to stay up-to-date with the software you are working on if you are going ofline for a little wild. If you going to have conflict merges later, it is best to configure them now, so the whole product will work. As you can tell, I am not too confident in my answer, but I know somewhat of the answer. Let's just push!
+
