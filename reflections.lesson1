@@ -19,3 +19,10 @@ I am starting the reflections adventure with this one. I am talking about using 
   It is git init.
   git status sees the current conditions of the repository.
 
+ I know staging area is the spotlight of files I've added that are being changed, but I do not understand how to commit yet. Lets see.
+
+ So, I have a little knowledge how staging works. It is the middle man between your hardrive files and the repository. U need to add ur files to staging to be tracked for version control, then you can commit the new changes, all in all, it keep tracks of the log. 
+
+ I believe if you only commit one file...it still should take a snapshot of the rest of the program instead of adding the whole program. If thats the case, I will remember and write about it :).
+
+ Now, I have learned git branch....Branch is amazing. It allows you to completely diverge from the real product to test stuff, and now you can add new features. Cool! Branch is awesome and I hope other version controls have it. Cool!
