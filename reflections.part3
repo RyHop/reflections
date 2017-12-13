@@ -1,2 +1,7 @@
 Now, Udacity is telling me to create a new file on github and reflect upon my ideas about remotes or when do I need one. From my understanding,
 you only need yone when you are about to put your information into github or "push" it.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+ (Side note): This is the first question I put in my reflections file because I couldn't find the shortcut to copy and paste into git...so I didnt bother.
+ It is best not to stay automcatically up-to-date because you don't know what changed if you constantly are being fed updates. You can easily have conflict detections if the project includes a large group of people.
+ 
