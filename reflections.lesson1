@@ -26,3 +26,6 @@ I am starting the reflections adventure with this one. I am talking about using 
  I believe if you only commit one file...it still should take a snapshot of the rest of the program instead of adding the whole program. If thats the case, I will remember and write about it :).
 
  Now, I have learned git branch....Branch is amazing. It allows you to completely diverge from the real product to test stuff, and now you can add new features. Cool! Branch is awesome and I hope other version controls have it. Cool!
+
+ So, I learned more exciting, interesting, stuff. Its hard to take in, but usefull. I know there is a graph-like feature for developers to visualize commit history. I will google that when needed. I know that detached head just means..going back to old commit...and to make that commit a head...i guess just it already does it if you are checking out that commmit. If you have branches later on down the road, you can simply create them and open with a shortcut they provide. :)
+
