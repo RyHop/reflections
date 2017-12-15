@@ -1,0 +1,5 @@
+ This is a new reflection file started for android Development. I have one hand-written, so I will keep updating that as well. But, I will update this one also to keep my skillset with git and github.
+
+  Firstly, I need to learn how to use git and github with Android Studio. I will figure out when the time comes. I figure I can just create a repository and clone the package...hopefully.
+
+  One of the things I learned today was the class R.layout..or I believe just "R"...its a reference for the resource folder..so thats why, when refering to a textview or string such as R.findViewByID.idk....its is refering to that.
