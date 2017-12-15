@@ -2,4 +2,9 @@
 
   Firstly, I need to learn how to use git and github with Android Studio. I will figure out when the time comes. I figure I can just create a repository and clone the package...hopefully.
 
-  One of the things I learned today was the class R.layout..or I believe just "R"...its a reference for the resource folder..so thats why, when refering to a textview or string such as R.findViewByID.idk....its is refering to that.
+  One of the things I learned today was the class R.id or R.layout..or I believe just "R"...its a reference for the resource folder..so thats why, when refering to a textview or string such as R.findViewByID.idk....its is refering to that.
+
+  Mabye I should start dating these. 15 December 2017.
+  I learned how to create an array in java. Something like Strings [] toyname = 'a'. It is very confusing when doings that instead of doing it in python, but I will manage. Also, in the Udacity tutorial, I got the Strings array from a class method from another file. Example: Strings [] toyname = toys.toyNames();. When I started android development in Java 4 or 5 years ago, I did not know what oys.toyNames() would come from. Now, I do. I learned a little something from classes in my intro to programming class, and it all makes sense now. When I looked at the Java class that I got the list of strings from, I can simply see myself doing it....Times have changed!
+
+
