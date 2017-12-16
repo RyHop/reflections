@@ -10,5 +10,7 @@
   (Same Date)
   I just want to reflect about adding a scroll view. It makes your content scroll. Its simply just adding a scroll view widget around the text view that we made equal an array of strings. That's it. It is not different textviews together. Huh..But I bet there is a different way of doing it. We will find out.
 
+ (16 December 2017)
+  Just checking in with the strings resource folder. I haven't been using this, but I should if I want my app to translate to other languages. I found that to make a string in the resource folder, just add one like the app name before..and the id is in quotations marks. If want to use, say on the XML layout, just put in quotations, @Strings/value. That is it.
 
 
