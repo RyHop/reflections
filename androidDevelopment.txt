@@ -20,6 +20,10 @@
 
   (Same Date but late)
   It took me approximately an hour to understand the URI class. I was not about the .appendParameter because I simply did not know what I was looking at and how to use it. In general, I understand that the URI builder is for using URL in code which we translate into a JAVA URL after using the URI builder. In the URI builder, I just know you have your base URL, your parameters or extra wierd lookin codes in the URL, and you build it afterwards.
-  After I was done building the URI and translating it to a URL, I created a method which took the github query (used in making the URI building)and sent it to the URI builder. Once done, I dispalyed the URL ona textview. Maybe that was this whole thing was about. Asking the user what data to query on github, and building the url to search using a HTTP Request. That is most likely it, but I do not know how the githubquery is put together in the URI builder. I will know soon, if I need to know further information. But now, move on :) 
+  After I was done building the URI and translating it to a URL, I created a method which took the github query (used in making the URI building)and sent it to the URI builder. Once done, I dispalyed the URL ona textview. Maybe that was this whole thing was about. Asking the user what data to query on github, and building the url to search using a HTTP Request. That is most likely it, but I do not know how the githubquery is put together in the URI builder. I will know soon, if I need to know further information. But now, move on :)
+
+  (Same Date)
+  More on Connection to the internet. Now, We are using a HttpURLConnection which allows us to actually connect to the internet. It is not much acually. First, make an open connection. Secondly, use an InputStream to get to the text. Third, use a scanner and use a ".useDelimiter("\\A") to allow different sizes of data and ensure flawless connection. Lastly, disconnect.
+  Next is permission. I pretty much know about those through previous message.
 
 
