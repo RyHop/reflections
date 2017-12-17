@@ -12,5 +12,14 @@
 
  (16 December 2017)
   Just checking in with the strings resource folder. I haven't been using this, but I should if I want my app to translate to other languages. I found that to make a string in the resource folder, just add one like the app name before..and the id is in quotations marks. If want to use, say on the XML layout, just put in quotations, @Strings/value. That is it.
+  (Same Date)
+  Maybe I will do alot of reflection now, because I am getting thick into the code. So, I created a menu to be put on the taskbar. I created an item in main.xml(new menu resource file in menu resource folder). The <item contained android:title attribute, app:showAsAction="ifRoom" attribute, android:orderInCateogry="1" if you have multiple, and android:id to reference it in code.
+  Now the weird thing in code is that I did not know what I was doing at first. I was writing onCreateOptionsMenu..oh nvm, I guess this method is called when the Activity starts. Then I inflated using getMenuinflator().infalate(R.menu.main,menu). Then i returned true. 
+  For the menuinflator.inflate parameters, I can only guess the reference main menu is an integer recognized by Android Studio, and the second paramter is menu..just saying its a menu. 
+  In the onOPtionsItemSelected method(), I know this is clicked when an option has been selected in menu. I got the viewId by intializing it to item.getItemID(). So, it is a property of item I believe. Then I made a TOast to confirm what I clicked. I love toats! Easy and Simple. Aftwardwards, I return the super command which I believe just tells the method that you can go ahead and show the menu..the code following does not matter. 
+
+  (Same Date but late)
+  It took me approximately an hour to understand the URI class. I was not about the .appendParameter because I simply did not know what I was looking at and how to use it. In general, I understand that the URI builder is for using URL in code which we translate into a JAVA URL after using the URI builder. In the URI builder, I just know you have your base URL, your parameters or extra wierd lookin codes in the URL, and you build it afterwards.
+  After I was done building the URI and translating it to a URL, I created a method which took the github query (used in making the URI building)and sent it to the URI builder. Once done, I dispalyed the URL ona textview. Maybe that was this whole thing was about. Asking the user what data to query on github, and building the url to search using a HTTP Request. That is most likely it, but I do not know how the githubquery is put together in the URI builder. I will know soon, if I need to know further information. But now, move on :) 
 
 
