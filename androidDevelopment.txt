@@ -24,6 +24,16 @@
 
   (Same Date)
   More on Connection to the internet. Now, We are using a HttpURLConnection which allows us to actually connect to the internet. It is not much acually. First, make an open connection. Secondly, use an InputStream to get to the text. Third, use a scanner and use a ".useDelimiter("\\A") to allow different sizes of data and ensure flawless connection. Lastly, disconnect.
-  Next is permission. I pretty much know about those through previous message.
+  Next is permission. I pretty much know about those through previous apps.
+
+  (17 December 2017)
+  I just finished the "Connecting to Internet" course on Udacity. What a course! My mind is blanc, confused trying to learn all those things. It's good. Firstly, I understand the URI, and HTTPURLConnection methods. I just probably have to look them up to use them, but at least I know of them and their functionality. I can't remember them off my brain though.
+  I learned AyncsTask or something spelled like that. It's mainly for switching calculations and processes off the main thread which is important for efficient app transistions. I understand mostly how to do it, but its a lot to remember off the top of my head. 
+  I understand how to create a menu item and do something if clicked really well.
+  I learned how the Error message work, show or hide data, and making a progess bar.
+  And finally, I  understand how to parse JSON data by hand. 
+
+  If I had to completely misunderstannd one concept in this lesson, it would be some of the classes Udacity wrote without explaininng . COmments in the code said "it will be taught in a future lesson" or what was the broad meaning of that ccode. 
+
 
 
