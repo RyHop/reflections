@@ -33,7 +33,10 @@
   I learned how the Error message work, show or hide data, and making a progess bar.
   And finally, I  understand how to parse JSON data by hand. 
 
-  If I had to completely misunderstannd one concept in this lesson, it would be some of the classes Udacity wrote without explaininng . COmments in the code said "it will be taught in a future lesson" or what was the broad meaning of that ccode. 
+  If I had to completely misunderstannd one concept in this lesson, it would be some of the classes Udacity wrote without explaininng . COmments in the code said "it will be taught in a future lesson" or what was the broad meaning of that ccode.
+
+  (21 December 2017)
+  Just reflecting on RecyclerView before I move on to other stuff. So, a Recycleview is for a clearner, more efficient solution to displaying views in a list on a screen without initilizing each view in code and haven to call them multiple times if scrolling. First, You compile a dependicy. You can find it with a google search. Then, you create the layout file. Once done, in a java file, create a class that extends the Recyle View..or I believe its the ViewHolder. Then build the constrtuctor that initaties the views you want. This is all from my understanding. 
 
 
 
