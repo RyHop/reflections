@@ -37,7 +37,10 @@
 
   (21 December 2017)
   Just reflecting on RecyclerView before I move on to other stuff. So, a Recycleview is for a clearner, more efficient solution to displaying views in a list on a screen without initilizing each view in code and haven to call them multiple times if scrolling. First, You compile a dependicy. You can find it with a google search. Then, you create the layout file. Once done, in a java file, create a class that extends the Recyle View..or I believe its the ViewHolder. Then build the constrtuctor that initaties the views you want. This is all from my understanding.
-  Just another commit. So, there is recycelingView, adapter, and layoutmanagers. Thats it on a higher level. Recycleing view is in charge of reusing views, adapater is for the data, and the layoutmanger is designed for orientation. I already touched on making the recycleingView. Making the adapter is the same way without the layout making. Just extend a java class and load the overriding methods, and the layout inflator I believe. The layoutmanager can be done in the main class with a simple initialization. 
+  Just another commit. So, there is recycelingView, adapter, and layoutmanagers. Thats it on a higher level. Recycleing view is in charge of reusing views, adapater is for the data, and the layoutmanger is designed for orientation. I already touched on making the recycleingView. Making the adapter is the same way without the layout making. Just extend a java class and load the overriding methods, and the layout inflator I believe. The layoutmanager can be done in the main class with a simple initialization.
+  For the Recyecler View...just make the layout, intiilize it, set the adapter, and the layoutmanager. You should be good.
+  So when creating the recycler view, create the xml file, compile the dependeciy, initizlize and reference it in the main activity class.
+  For the adapter, extend it in a java file class. "RecyclerView.Adapter<MyAdapter.ViewHolder>, take in any parameters, create a blass that extends viewHolder, define your views or widgets in that viewHOlder, create onCreateViewHolder(Override) and inflate the layout, provide a contructor for the adapte, and finally, create a onBindViewHolder to update the views. 
 
 
 
