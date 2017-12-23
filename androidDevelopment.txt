@@ -43,7 +43,8 @@
   For the adapter, extend it in a java file class. "RecyclerView.Adapter<MyAdapter.ViewHolder>, take in any parameters, create a blass that extends viewHolder, define your views or widgets in that viewHOlder, create onCreateViewHolder(Override) and inflate the layout, provide a contructor for the adapte, and finally, create a onBindViewHolder to update the views.
   (December 22, 2017)
   Learning Intents. I have already learned enough to make my previous app, so I can breeze through this lesson. But, it is nice to know implicit intents which opens a camera or call someone. It basically performs an action and it doesn't matter what app executses it. Also, opening a webpage is easy. just make it a URI, parse it with Uri, and then put it into an intent. 
-  URi is bascially a broader URL. it has a scheme:http, host:www.google.com, path: /courses, queory: q=Money, and/or fragment: #something. Those are the components. 
+  URi is bascially a broader URL. it has a scheme:http, host:www.google.com, path: /courses, queory: q=Money, and/or fragment: #something. Those are the components.
+  Build Uri class makes more sense with them explaining how to show a location on the map using an intent. I can google search common intents by the way to help explain it. Then, process to build Uri as suggested with the intent.
 
 
 
