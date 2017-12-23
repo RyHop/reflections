@@ -40,7 +40,11 @@
   Just another commit. So, there is recycelingView, adapter, and layoutmanagers. Thats it on a higher level. Recycleing view is in charge of reusing views, adapater is for the data, and the layoutmanger is designed for orientation. I already touched on making the recycleingView. Making the adapter is the same way without the layout making. Just extend a java class and load the overriding methods, and the layout inflator I believe. The layoutmanager can be done in the main class with a simple initialization.
   For the Recyecler View...just make the layout, intiilize it, set the adapter, and the layoutmanager. You should be good.
   So when creating the recycler view, create the xml file, compile the dependeciy, initizlize and reference it in the main activity class.
-  For the adapter, extend it in a java file class. "RecyclerView.Adapter<MyAdapter.ViewHolder>, take in any parameters, create a blass that extends viewHolder, define your views or widgets in that viewHOlder, create onCreateViewHolder(Override) and inflate the layout, provide a contructor for the adapte, and finally, create a onBindViewHolder to update the views. 
+  For the adapter, extend it in a java file class. "RecyclerView.Adapter<MyAdapter.ViewHolder>, take in any parameters, create a blass that extends viewHolder, define your views or widgets in that viewHOlder, create onCreateViewHolder(Override) and inflate the layout, provide a contructor for the adapte, and finally, create a onBindViewHolder to update the views.
+  (December 22, 2017)
+  Learning Intents. I have already learned enough to make my previous app, so I can breeze through this lesson. But, it is nice to know implicit intents which opens a camera or call someone. It basically performs an action and it doesn't matter what app executses it. Also, opening a webpage is easy. just make it a URI, parse it with Uri, and then put it into an intent. 
+  URi is bascially a broader URL. it has a scheme:http, host:www.google.com, path: /courses, queory: q=Money, and/or fragment: #something. Those are the components. 
+
 
 
 
