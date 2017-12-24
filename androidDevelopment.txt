@@ -45,6 +45,8 @@
   Learning Intents. I have already learned enough to make my previous app, so I can breeze through this lesson. But, it is nice to know implicit intents which opens a camera or call someone. It basically performs an action and it doesn't matter what app executses it. Also, opening a webpage is easy. just make it a URI, parse it with Uri, and then put it into an intent. 
   URi is bascially a broader URL. it has a scheme:http, host:www.google.com, path: /courses, queory: q=Money, and/or fragment: #something. Those are the components.
   Build Uri class makes more sense with them explaining how to show a location on the map using an intent. I can google search common intents by the way to help explain it. Then, process to build Uri as suggested with the intent.
+  (23 December 2017)
+  Now, I am doing the lesson about Android life cycles. I pretty much know half of the information by working with one of my previous apps. Though, I did not know tbout Loaders and SaveInstanceState. Interesting. SaveInstanceState is when you save data if the current android lifecycle is interrupted. Loader helps keep the current async task up to date or searching for a URL if orientation of the phone switches in between causing a change of states. 
 
 
 
