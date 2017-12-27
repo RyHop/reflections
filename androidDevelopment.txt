@@ -50,6 +50,17 @@
   With a loader, create a loader ID, Fill-in loader Callbacks or override methods, and finally Initizlize the loader with loaderManager.
   Also, to cache the Loader data, create a member variable, modify onStartLoading to call deliverResult, and then Override deliverResult to store data in the cache member variable.
 
+  (24 December 2017)
+   In the preferences lesson of Udacity. Learned about SharedPrefances, cloud, google firebase, servers, and internal/external file. CORRECTION: I did not learn about them about I now know the ways of storing files in Android. Also, I know of fragments in the past, but they have always been a confusion with me. Now, I know there are an activity, but a mini one. They perform the same option, but a piece of the screen. You don't want the whole activity on there. For settings, there is a thing call preference fragment.
+
+   When making a settings menu..its not hard really. Create a settings class. Create a menu usually. Ovvride all methods. Create an XML file for the preference fragment or the settings you want. Create a fragment item in the settings activity. In the preference fragment java `=class, extend the prefeancefragmentcompat, and then overrid ethe methods. Also, DONT FORGET TO ADD DEPENDICY. Finally, addPrefrecene latyout in the fragemetn java class or in the only override method (onCreate), and add a prefrence theme in the style resource folderor it wont work.
+   (26 December 2017)
+   onSharePreferenceManager can be used to update stuff regardless of lifecycle. Implement it in the right class, register and unregister, and use dafaultsharedpreferences or sharedpreferesnces method, or the one that is overrided.
+   You can use list preference as well, for example: show color
+   To update the hint, use onPreferenceChangeListoner and Preference Summary.
+   PreferenceChangedListoner gets called as soon as the setting is changes. SharedPreferncedChangedListoner is called when aything setting is changed.
+   First Choice, you can override the home button, to only go back. Also, use android launch mode to concerve memory so the activity wont start again
+
 
 
 
