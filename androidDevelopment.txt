@@ -59,7 +59,22 @@
    You can use list preference as well, for example: show color
    To update the hint, use onPreferenceChangeListoner and Preference Summary.
    PreferenceChangedListoner gets called as soon as the setting is changes. SharedPreferncedChangedListoner is called when aything setting is changed.
-   First Choice, you can override the home button, to only go back. Also, use android launch mode to concerve memory so the activity wont start again
+   First Choice, you can override the home button, to only go back. Also, use android launch mode to concerve memory so the activity wont start again.
+   (27 December 2017)
+   When Creating an SQLite database, it is the same as any other database: rows, columns, and is relational. First a create a contract in Android. There is an example online. 
+   When creating a contract, create an inner class with implementing BaseColumns. Then, declare strings for tables and columns.
+   Now, Create Waitlist DbHelper by new Java Class and extend SQLiteOpen Helper. Delcare strings: version number and name of database.
+   Make a constructor or implement it..then call super to let the bigger class take care of everything. Dont forget context! Implremnet onCreate and onUpgrade.
+   onCreate justs create SQL statement. 
+   OnUpgrade drops the database and recreates it.
+   To query all guests, create a method that returns a cursor. Its in the main class. Call it in onCreate and pass the cursor count to the adapter that returns data and handles the recycler view. 
+   Update the adapter to reflect the new count in the list.
+   Update the adapter for the entire cursor.
+   Bind the cursor data in onVindViewHolder
+   Update MainActivity to pass in the cursor.
+   Too add guests..get the data from the UI. Implement addToWaitlist and call addNewGuest. Create and Implement addGuest to insert into the DB.
+   Okay, now it seems I may be a little lost or not fullly learning. Its okay. I can see myself goign back to this as a reference. Once day, I will be able to do all this myself. So, to remove geusts, create a method, get an id tag for the deleted targets, update the adapter, use ItemTouchHelper for swipping guests.
+
 
 
 
