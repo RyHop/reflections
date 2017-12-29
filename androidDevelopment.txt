@@ -75,6 +75,11 @@
    Too add guests..get the data from the UI. Implement addToWaitlist and call addNewGuest. Create and Implement addGuest to insert into the DB.
    Okay, now it seems I may be a little lost or not fullly learning. Its okay. I can see myself goign back to this as a reference. Once day, I will be able to do all this myself. So, to remove geusts, create a method, get an id tag for the deleted targets, update the adapter, use ItemTouchHelper for swipping guests.
 
+ (28 December 2017)
+ Today or tonight, I am learning ContentProvider. It helps access data within your app in a secure way, and it allows for other apps to use the same data. Say you get a contact info in ur app, to secure it in the dafault phone app, u need a content provider. To use it: get permission, get the content resolver, pick a basic action--query,insert, update, or delete; identiy the data you are reading or manipulintg to create a URI, and in case of reading from ContentProvider, display the info to UI. Teses are the directions from Udacity before they show me the tutorial. 
+ ContentResolver gets the data..it acts as an efficient middle man.
+ Then use a query method on the contentresolver to specity you only reading the objects...other functions are write,slect and update i believe.
+ Use the cursor methods such as getColumnIndex and get string to get the data stored. 
 
 
 
