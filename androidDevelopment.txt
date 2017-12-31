@@ -93,7 +93,16 @@
   Build the URIMacher method..look it up. Then addUri.
   Set something equal to the return value.
   Now in the content provider, I need to implement the CRUD methds...insert, query, update, and delete.
-
+  (20 December 2017)
+  Maybe I knew more about Android Development did I thought. I am learning background services. I could also use a Loader for the same task but the loader is different by directly using the main thread, updating the current UI, and cannot be used in backgrounds. With service, there also exists a subclass called Intent servies. It handles a specific job. Services are just more broad. 
+  Don't forget to put the service in Android Manifest.
+  I probably need to go over sharedPreferenceInstance Again.
+  Pending intents allow outside influences to lauch activities in ur app. Also, there are alot of new stuff in Android OREO. If Android Oreo, use a notification channel.
+  Notification.Action is required for buttons or any view in the notifications.
+  Foreground services are absoultely services that requires attention..Priority of critical.
+  Scheduling Jobs can be done by FirebaseJobDispatcher.
+  Broadcast Receivers is triggered by outside influence. What intents will trigger it. Jobs can be used if apps isnt started...for instance, a job while charging. For broadcast recievers when the app is runnign, dynamic broadcasts are good. Statis is for offline usually.
+  Android has a batteryManager!
 
 
 
