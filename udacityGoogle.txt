@@ -1,0 +1,14 @@
+Hey all,
+
+This is another reflection document that will help me remember what I have learned in the Google-Udacity series. Feel free to read if you want. I will try to write correclty...no promises.
+
+(5 February 2017)
+
+ Learned stuff I already know. onClick methods, create, one class contains the methods, the usual.
+ Gist is where we can share code and steal i guess lol.
+ Java data instance = dataype name = #number
+
+ (8 March 2017)
+ Inheritance is going on alot in Android Development. AppCompact is a super class extended by main activity. Java can use multiple functions with different parameters. Override just use the method you want to use instead of default.
+
+
