@@ -11,4 +11,6 @@ This is another reflection document that will help me remember what I have learn
  (8 March 2017)
  Inheritance is going on alot in Android Development. AppCompact is a super class extended by main activity. Java can use multiple functions with different parameters. Override just use the method you want to use instead of default.
 
+( 12 March 2017)
+ I am ready to learn tomorrow, couldn't learn today, but will hit it hard tomorrow.
 

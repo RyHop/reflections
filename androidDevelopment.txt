@@ -108,6 +108,9 @@
   (4 January 2018)
   Databinding is easy. I can follow five steps, forgot but can google, and have the code be a value. 
   Accessibility helps people with disabilities. It has a lot of options, one is contentDescription. It is just an attribute to speaks the word the user touches I beilieve. 
-  For different languages, use a different folder and name it with the IR code that is tradtional for other languages. Also, there is a translatable attribute and automirrored. 
+  For different languages, use a different folder and name it with the IR code that is tradtional for other languages. Also, there is a translatable attribute and automirrored.
+
+  (29 May 2018)
+  Long time, no type! I just wanted to write about the different types of classes I've learned and the oh, but powerful interface. Firstly, there is an concrete class that has methods and varaibles already defined. An abstract class has methods and variables, but not defined. (For the developer too). An interface only has method names, but not defined, and it can be call by other classes. 
 
 
